@@ -50,14 +50,15 @@ The UI automatically adapts to both light and dark modes.
 ## 🔑 Setup Instructions
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/sidhi-03/Smart-AI-Resume-Generator.git
 cd Smart-AI-Resume-Generator
-###2️⃣ Install dependencies
-```bash
+
+##2️⃣ Install dependencies
+
 pip install -r requirements.txt
 ###3️⃣ Add Google Gemini API Key
-```bash
+
 
 Create a folder:
 
@@ -77,7 +78,7 @@ GOOGLE_API_KEY = "your_api_key_here"
 ###⚠️ Never commit your API key to GitHub!
 
 ###▶️ Run the App
-```bash
+
 streamlit run app.py
 
 
@@ -86,7 +87,7 @@ Open in browser:
 http://localhost:8501
 
 ###🚧 Roadmap
-```bash
+
 
  Export resume to PDF
 
@@ -99,7 +100,7 @@ http://localhost:8501
  Skill gap analysis
 
 🤝 Contributing
-```bash
+
 
 Contributions, issues, and feature requests are welcome!
 
