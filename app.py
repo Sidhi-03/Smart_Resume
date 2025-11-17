@@ -5,7 +5,7 @@ import base64
 # -----------------------------------------------------------
 # CONFIGURE API KEY
 # -----------------------------------------------------------
-genai.configure(api_key="AIzaSyCxU1iOYpj11lCgPEXy11YTEDQG6YlVSS8")
+genai.configure(api_key="Your API key")
 
 
 MODEL_NAME = "models/gemini-2.0-flash-lite-preview-02-05"
@@ -104,4 +104,5 @@ if st.button("🚀 Generate Resume"):
 
         st.markdown("<div class='resume-box'>", unsafe_allow_html=True)
         st.markdown(resume_text.replace("\n", "<br>"), unsafe_allow_html=True)
+
         st.markdown("</div>", unsafe_allow_html=True)
