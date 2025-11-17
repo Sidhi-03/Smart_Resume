@@ -1,5 +1,5 @@
-🚀 Smart AI Resume Generator
-Build Instant ATS-Friendly Resumes Using Google Gemini + Streamlit
+# 🚀 Smart AI Resume Generator
+### Build Instant ATS-Friendly Resumes Using Google Gemini + Streamlit
 
 This project is a smart resume generator powered by Google Gemini AI.
 Users can instantly generate clean, ATS-friendly, keyword-optimized resumes based on:
@@ -14,44 +14,41 @@ Job Description (for keyword extraction)
 
 The UI automatically adapts to both light and dark modes.
 
-🌟 Features
-🔹 AI-Powered Resume Generation
+## 🌟 Features
 
-Generates ATS-friendly resume using Google Gemini
+### 🔹 AI-Powered Resume Generation
+- Generates ATS-friendly resume using Google Gemini
+- Extracts keywords from job description
+- Auto-adds optimized skills, summary, and bullet points
+- Clean Markdown formatting
 
-Extracts keywords from job description
+### 🔹 Smart UI (Light + Dark Mode Support)
+- Text auto-visible in both themes
+- Styled resume output area
+- Simple & responsive design
 
-Auto-adds optimized skills, summary, and bullet points
+### 🔹 User Inputs
+- Full Name  
+- Target Role  
+- Experience Level (Fresher → Senior)  
+- Job Description (Optional)
 
-Clean Markdown formatting
+---
 
-🔹 Smart UI (Light + Dark Mode Support)
+## 🛠️ Tech Stack
 
-Text auto-visible in both themes
+| Technology         | Purpose                  |
+|-------------------|-------------------------|
+| Python            | Backend logic           |
+| Streamlit         | Web UI                  |
+| Google Gemini API | AI content generation   |
+| HTML/CSS          | Dynamic styling         |
 
-Styled resume output area
+---
 
-Simple & responsive design
+## 🔑 Setup Instructions
 
-🔹 User Inputs
-
-Full Name
-
-Target Role
-
-Experience Level (Fresher → Senior)
-
-Job Description (Optional)
-
-🛠️ Tech Stack
-Technology	Purpose
-Python	Backend logic
-Streamlit	Web UI
-Google Gemini API	AI content generation
-HTML/CSS	Dynamic styling
-🔑 Setup Instructions
-
-1️⃣ Clone the repository:
+### 1️⃣ Clone the repository
 git clone https://github.com/sidhi-03/Smart-AI-Resume-Generator.git
 
 cd Smart-AI-Resume-Generator
