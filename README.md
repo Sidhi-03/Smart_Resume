@@ -54,7 +54,7 @@ The UI automatically adapts to both light and dark modes.
 git clone https://github.com/sidhi-03/Smart-AI-Resume-Generator.git
 cd Smart-AI-Resume-Generator
 
-##2️⃣ Install dependencies
+###2️⃣ Install dependencies
 
 pip install -r requirements.txt
 ###3️⃣ Add Google Gemini API Key
