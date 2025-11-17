@@ -1,107 +1,88 @@
-# 🚀 Smart AI Resume Generator
-### Build Instant ATS-Friendly Resumes Using Google Gemini + Streamlit
+🚀 Smart AI Resume Generator
+Build Instant ATS-Friendly Resumes Using Google Gemini + Streamlit
 
-This project is a smart resume generator powered by Google Gemini AI.  
+This project is a smart resume generator powered by Google Gemini AI.
 Users can instantly generate clean, ATS-friendly, keyword-optimized resumes based on:
 
-- Name  
-- Target Job Title  
-- Experience Level  
-- Job Description (for keyword extraction)
+Name
+
+Target Job Title
+
+Experience Level
+
+Job Description (for keyword extraction)
 
 The UI automatically adapts to both light and dark modes.
 
----
+🌟 Features
+🔹 AI-Powered Resume Generation
 
-## 🌟 Features
+Generates ATS-friendly resume using Google Gemini
 
-### 🔹 AI-Powered Resume Generation
-- Generates ATS-friendly resume using Google Gemini
-- Extracts keywords from job description
-- Auto-adds optimized skills, summary, and bullet points
-- Clean Markdown formatting
+Extracts keywords from job description
 
-### 🔹 Smart UI (Light + Dark Mode Support)
-- Text auto-visible in both themes
-- Styled resume output area
-- Simple & responsive design
+Auto-adds optimized skills, summary, and bullet points
 
-### 🔹 User Inputs
-- Full Name  
-- Target Role  
-- Experience Level (Fresher → Senior)  
-- Job Description (Optional)
+Clean Markdown formatting
 
----
+🔹 Smart UI (Light + Dark Mode Support)
 
-## 🛠️ Tech Stack
+Text auto-visible in both themes
 
-| Technology | Purpose |
-|-----------|---------|
-| Python | Backend logic |
-| Streamlit | Web UI |
-| Google Gemini API | AI content generation |
-| HTML/CSS | Dynamic styling |
+Styled resume output area
 
----
+Simple & responsive design
 
----
+🔹 User Inputs
 
-## 🔑 Setup Instructions
+Full Name
 
-### 1️⃣ Clone the repository
+Target Role
 
+Experience Level (Fresher → Senior)
+
+Job Description (Optional)
+
+🛠️ Tech Stack
+Technology	Purpose
+Python	Backend logic
+Streamlit	Web UI
+Google Gemini API	AI content generation
+HTML/CSS	Dynamic styling
+🔑 Setup Instructions
+
+1️⃣ Clone the repository:
 git clone https://github.com/sidhi-03/Smart-AI-Resume-Generator.git
+
 cd Smart-AI-Resume-Generator
 
-###2️⃣ Install dependencies
-
+2️⃣ Install dependencies:
 pip install -r requirements.txt
-###3️⃣ Add Google Gemini API Key
 
+3️⃣ Add Google Gemini API Key:
 
-Create a folder:
-
-mkdir .streamlit
-
-
-Create file:
-
-.streamlit/secrets.toml
-
-
-Paste inside:
-
+Create folder .streamlit and file secrets.toml inside:
 GOOGLE_API_KEY = "your_api_key_here"
 
+⚠️ Never commit your API key to GitHub!
 
-###⚠️ Never commit your API key to GitHub!
-
-###▶️ Run the App
-
+4️⃣ Run the App:
 streamlit run app.py
 
+Open in browser: http://localhost:8501
 
-Open in browser:
+🚧 Roadmap
 
-http://localhost:8501
+Export resume to PDF
 
-###🚧 Roadmap
+Multiple resume templates
 
+Cover letter generator
 
- Export resume to PDF
+Resume–JD match score
 
- Multiple resume templates
-
- Cover letter generator
-
- Resume–JD match score
-
- Skill gap analysis
+Skill gap analysis
 
 🤝 Contributing
 
-
 Contributions, issues, and feature requests are welcome!
-
-
