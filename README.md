@@ -52,22 +52,30 @@ The UI automatically adapts to both light and dark modes.
 git clone https://github.com/sidhi-03/Smart-AI-Resume-Generator.git
 
 cd Smart-AI-Resume-Generator
+
 ---
+
 **2️⃣ Install dependencies:**
 pip install -r requirements.txt
+
 ---
+
 **3️⃣ Add Google Gemini API Key:**
 
 Create folder .streamlit and file secrets.toml inside:
 GOOGLE_API_KEY = "your_api_key_here"
 
 ⚠️ Never commit your API key to GitHub!
+
 ---
+
 **4️⃣ Run the App:**
 streamlit run app.py
 
 Open in browser: http://localhost:8501
+
 ---
+
 **🚧 Roadmap**
 
 Export resume to PDF
@@ -79,7 +87,9 @@ Cover letter generator
 Resume–JD match score
 
 Skill gap analysis
+
 ---
+
 **🤝 Contributing**
 
 Contributions, issues, and feature requests are welcome!
